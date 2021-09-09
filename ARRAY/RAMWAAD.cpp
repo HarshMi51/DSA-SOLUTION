@@ -15,18 +15,9 @@ int main() {
         cin >> s ;
         char A[n][n];
         memset(A,'0',sizeof(A));
-        vector<ll> v;
+        vector<ll> v1;
         ll Count= 0;
-        for(int i=0;i<n;i++) 
-        {
-            if(s[i]=='2')
-            {
-                v.push_back(i);
-            }
-        }
-        if(v.size()<=2 && v.size()) {
-            cout << "NO"<<endl;
-        }
+
         else
         {
             cout << "YES"<<endl;
